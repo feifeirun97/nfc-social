@@ -30,7 +30,7 @@ var HEIGHT,
 
 function init(){
   scene = new THREE.Scene();
-  HEIGHT = window.innerHeight/2;
+  HEIGHT = window.innerHeight;
   WIDTH = window.innerWidth;
   aspectRatio = WIDTH / HEIGHT;
   fieldOfView = 60;
@@ -41,7 +41,7 @@ function init(){
     aspectRatio,
     nearPlane,
     farPlane);
-  camera.position.z = 650;  
+  camera.position.z = 820;  
   camera.position.y = 0;
   camera.lookAt(new THREE.Vector3(0,0,0));    
   renderer = new THREE.WebGLRenderer({alpha: true, antialias: true });
