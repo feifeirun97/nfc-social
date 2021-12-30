@@ -28,8 +28,9 @@ function App() {
           <AiFillLinkedin style={{ fontSize: '110px', color: '#0072B1' }} onClick={() => { window.location.href = 'https://www.linkedin.com/in/fei-xu-096b08215/'; }} />
         </div>
         <div style={{display:'flex'}}>
+          <AiFillAlipaySquare style={{ fontSize: '110px', color: '#0072B1'}} onClick={() => { window.location.href = 'https://qr.alipay.com/fkx00316iqrnzb2iumfexe8' }}/>
           <AiFillGithub style={{ fontSize: '110px', color: '#171515' }} onClick={() => { window.location.href = 'https://github.com/feifeirun97'; }} />
-          <AiFillAlipaySquare style={{ fontSize: '110px', color: '#2493e6' }} onClick={() => { window.location.href = 'https://qr.alipay.com/fkx00316iqrnzb2iumfexe8' }}/>
+          
         </div>
       </div>
       
